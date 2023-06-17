@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&family=Viga&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HackCourses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pagestyle.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <section class="heading-container  ">
+        <div class="upper-container">
+          <div class="top-heading">
+            <div class="heading">
+              <p>HackCourses - Here You get All paid Courses in Freee</p>
+            </div>
+  
+            <div class="sec-heading">
+              <div class="logo"><a href="newindex.html"><img src="logo/WEB LOGO1.png" alt=""></a></div>
+  
+              <div class="input-btn">
+                <input 
+                  type="text " placeholder="Find Your course" class="btn" id="myinput"
+                  onkeyup="searchcourse()"
+                />
+                <div class="search-icon">
+                 <img src="list assets/magnifying-glass-solid.svg" alt="">
+                </div>
+               
+  
+                <div class="signup-btn">
+                  <span><a href="">Sign UP</a></span>
+                  <span><a href="">Log In</a></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="nav-bar">
+              
+              <ul class="list" id="list">
+
+                <li><a href=""><img src="list assets/asset 2.png" alt=""> Courses</a></li>
+                <li><a href="policy.html"> <img src="list assets/asset 6.png" alt=""> Policy</a></li>
+                <li><a href="about.html"> <img src="list assets/asset 4.png" alt=""> About</a></li>
+                <li><a href=""> <img src="list assets/asset 5.png" alt=""> Contact Us</a></li>
+                <li><a href="">  <img src="list assets/asset 7.png" alt=""> Donate Us</a></li>
+                <li><a href=""> <img src="list assets/asset 3.png" alt=""> Request Course</a></li>
+                      
+              </ul>
+              
+
+              
+              <div class="br-btn  ">
+                <img  src="list assets/bars-solid.svg"  class="bar-btn" onclick="tooglemenu()">
+              </div>
+              
+
+              <div class="bar-btn">
+                  <!-- <img src="list assets/bars-solid.svg" alt=""> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    </section>
+
+
+    <!-- FOR MOBILE VIEW -->
+
+    <div class="for-mobile">
+        <div class="sec-heading">
+          <div class="pink-box"></div>
+  
+          <div class="logo">
+            <a href="newindex.html"><img src="logo/WEB LOGO1.png" alt=""></a>
+          </div>
+  
+          <div class="input-btn ">
+  
+            <input type="text " placeholder="Find Your course" class="btn" id="myinput" onkeyup="searchcourse()"/>
+  
+            <div class="search-icon">
+             <img src="list assets/magnifying-glass-solid.svg" alt="">
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="nav-bar">
+                
+          <ul class="list" id="list">
+  
+            <li><a href=""> <img src="list assets/asset 2.png" alt=""> Courses</a></li>
+            <li><a href="policy.html"> <img src="list assets/asset 6.png" alt=""> Policy</a></li>
+            <li><a href=""> <img src="list assets/asset 4.png" alt=""> About</a></li>
+            <li><a href=""> <img src="list assets/asset 5.png" alt=""> Contact Us</a></li>
+            <li><a href="">  <img src="list assets/asset 7.png" alt=""> Donate Us</a></li>
+            <li><a href=""> <img src="list assets/asset 3.png" alt=""> Request Course</a></li>
+                  
+          </ul>
+  
+          <div class="signup-btn">
+            <span><a href="">Sign UP</a></span>
+            <span><a href="">Log In</a></span>
+          </div>
+          
+  
+          
+          <div class="br-btn  ">
+            <img  src="list assets/bars-solid.svg"  class="bar-btn" onclick="tooglemenu()">
+          </div>
+          
+  
+          <div class="bar-btn">
+              <img src="list assets/bars-solid.svg" alt="">
+          </div>
+  
+        </div>
+  
+  
+    </div>
+
+    <!-- course all information -->
+
+
+
+    <div class="main-contents"> 
+        <h1>Mastering Data Structures & Algorithms using C and C++</h1>
+
+
+        <div class="c-details">
+            <div class="img-div">
+                <img src="mix course img/abdulbari.jpg" alt="">
+            </div>
+            <h3>Classroom and Hands-on sessions- Features of  C++ 11 , Exception Handling and STL – <br> for Both  Academics and Industry</h3>
+        </div>
+
+        <div class="learn">
+            <h2>What you’ll learn</h2>
+            <ul>
+                <li><p>Learn Basic concepts of Programming C++, OOPs,Exception Handling, STL, Features of C++ 11</p></li>
+                <li><p>Learn Object-Oriented Programming Design Concept in  C++ Perfectly with Examples</p></li>
+                <li><p>Learn How to Develop an Application (Student Project  in C++ )</p></li>
+            </ul>
+        </div>
+
+        <div class="requirement">
+            <h2>Requirements</h2>
+            <ul>
+                <li><p>C++ Compiler and IDE, Like CodeBlocks , Eclipse , Xcode  etc.</p></li>
+                <li><p>No Programming knowledge required. Course covers C and C++ programming concepts in detail.</p></li>
+                
+            </ul>
+        </div>
+
+        <div class="discription">
+            <h2>Description</h2>
+
+            <ul>
+                <li><p>This course covers C++ from very basic to more advanced features.</p></li>
+                <li><p>Concepts of C++ programming are made very simple and easy.</p>
+                <li> <p>Every topic is covered in greater detail.</p>
+                <li> <p>All Lecture are discussed both on white board like a classroom session and practical demo.</p>
+                <li><p>Programs and Bullet points are provided as resource.</p>
+                   <li> <p>Every Topic is Explained with Real life Examples</p>
+                <li><p>This course also covers features of modern C++ 11.</p>
+                <li> <p><b>Student Project</b> at the end of Course</p></li></li></li></li></li></li></li>
+            </ul>
+ 
+
+        </div>
+
+        <div class="course-highlights">
+            <b>
+                <h2>Course Highlights</h2>
+
+                <ul>
+                    <li>Every Topic is covered on White Board</li>
+                    <li>Pratical Session for each Topic</li>
+                    <li>Section wise Quiz</li>
+                    <li>Section wise Workbook Programs</li>
+                    <li>Student Project</li>
+                </ul>
+            </b>
+
+            <p>You will be learning concepts perfectly and also learn how to perfectly utilise features of C++. you will be confident to develop any type of Application using C++.</p>
+        </div>
+
+
+        <div class="u-learn">
+          <h2>You Learn </h2>
+            <ul>
+                <li>Basics – Datatypes and Variables</li>
+                <li>Operators and Expressions</li>
+                <li>Conditional Statements</li>
+                <li>Loops</li>
+                <li>Pointers</li>
+                <li>Functions</li>
+                <li>Function Overloading</li>
+                <li>Oops Concepts</li>
+                <li>Classes and Objects</li>
+                <li>Constructors</li>
+                <li>Destructors</li>
+                <li>Operator Overloading</li>
+                <li>Inheritance</li>
+                <li>Polymorphism</li>
+                <li>Abstract Classes</li>
+                <li>Function Overriding</li>
+                <li>Friend Members</li>
+                <li>Static Members</li>
+                <li>Inner Classes</li>
+                <li>Templates</li>
+                <li>Exception Handling</li>
+                <li>I/O Streams</li>
+                <li>STL</li>
+                <li>Lambda Expressions</li>
+                <li>Features on Modern C++ 11</li>
+                <li>Student Project</li>
+            </ul>
+        </div>
+
+
+        <div class="buttons">
+         <a target="_blank"  href=""> <button class="button">DOWNLOAD</button></a>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>

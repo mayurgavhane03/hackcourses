@@ -1,0 +1,357 @@
+@media only screen and (max-width:920px)  {
+
+
+
+
+
+
+
+
+
+/* logo side  */
+.sec-heading .logo img {
+    height: 130px;
+    position: absolute;
+    top: 12%;
+    left: 23%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    /* display: none; */
+    
+}
+
+.pink-box {
+    height: 30px;
+    background-color: #e59494;
+    /* width: 100%; */
+}
+
+
+.for-mobile .nav-bar .list {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    top: 100px;
+
+
+}
+
+
+.list::before {
+    background: hsl(45 100% 70%);
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  
+
+
+
+.for-mobile .nav-bar .list a {
+    font-size: 16px;
+}
+.for-mobile .nav-bar .list a img {
+    height: 20px;
+}
+
+
+
+.search-icon img  {
+    height: 35px;
+    display: block;
+    color: #4c0796;
+    position: absolute;
+    top: 12%;
+    left: 85%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+.list img {
+    height: 21px;
+}
+
+.bar-btn {
+    height: 35px;
+    /* display: none; */
+    color: white;
+   
+}
+.signup-btn {
+    display: none;
+}
+
+.search-icon img  {
+    height: 28px;
+    /* display: none
+    pos; */
+}
+
+
+
+.for-mobile .btn {
+    position: absolute;
+    top: 12%;
+    left: 68%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+
+
+
+/* center text and images of the courses */
+.columnformobile {
+   scale: 1;
+   position: absolute;
+   top: 82px;
+
+ 
+}
+
+
+.column-content {
+    display: flex;
+}
+
+
+
+
+.input-btn {
+
+    display: block;
+}
+
+
+.side-bar .container h1 {
+
+    font-size: 2px;
+}
+   
+.container span {
+    font-size: 10px; 
+}
+   
+
+.side-inner-bar {
+    display: none;
+}
+
+
+.heading-container {
+    display: none;
+}
+
+  
+.center-content {
+   
+    position: absolute;
+    left: 90px;
+    top: 250px;
+    display: flex;
+}
+
+.center-content .middle {
+    width: 400px;
+}
+    
+.center-content  .middle .container h1 {
+
+    font-size: 25px;
+    width: auto;
+}
+   
+.center-content  .middle .container span {
+    font-size: 25px;
+    width: auto;
+}
+
+
+
+.center-text .maintextm .line1,.line2 {
+    width: 218px;
+    height: 5px;
+    background-color: #4c0796;
+
+}
+
+
+.center-text .maintextm .line3,.line4{
+    width: 218px;
+    height: 5px;
+    background-color: #e59494;
+
+}
+
+.center-text .maintextm {
+    gap: 50px;
+}
+
+.mobileview{
+    display: block;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: black; */
+    /* width: 100px; */
+    flex-direction: column;
+    
+}
+
+.maintextm {
+   display: block;
+    height: 5;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: viga, sans-serif;
+
+   
+
+}
+
+.for-mobile .search-icon {
+    display: none;
+}
+
+.maintextm h3 {
+    font-size: 25px;
+}
+.row-content{
+    /* background-color: blue; */
+    /* display: flex; */
+    /* flex-direction: column; */
+
+    gap: 15px;
+  
+}
+
+.mobileview .course-content a h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+
+.row-content .row1,.row2 {
+    padding-left: 18px;
+    align-items: center;
+}
+
+/* LAST CONTENT LAST CONTENT LAST CONTENT LAST CONTENT LAST CONTENT */
+.last-content {
+    position: absolute;
+    top: 250%;
+    left: -10%;
+    transform: translate(-50%, -50%);
+
+
+}
+.abt-t {
+    width: 280px;
+}
+
+.abt-text .abt-t {
+    font-family: viga,sans-serif;
+    color: #777777 ;
+}
+.abt-text .head1 {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: viga,sans-serif;
+}
+
+
+.first-box {
+    position: absolute;
+    left: 150px;
+    gap: 120px;
+}
+
+
+.community h3 {
+   
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: viga,sans-serif;
+
+}
+
+.community .image img {
+    height: 50px;
+}
+
+.telegram h3 {
+    text-transform: uppercase;
+    font-family: viga,sans-serif;
+    color: #000000;
+
+}
+
+.telegram img {
+    padding-top: 10px;
+    padding-left: 15px;
+    height: 40px;
+
+}
+    
+.abt-t {
+    font-size: 15px;
+}
+
+
+
+ 
+
+
+.center-text {
+    display: none;
+}
+   
+   
+   
+   
+   .for-mobile {
+    display: block;
+   }
+   
+   
+   .middle {
+
+    position: absolute;
+    left: 2px;
+   }
+   
+   .list {
+    display: block;
+   }
+
+
+}
+
+
+
+@media only screen and (max-width:700px)  {
+
+
+
+
+
+}

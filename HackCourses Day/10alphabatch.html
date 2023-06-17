@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&family=Viga&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HackCourses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pagestyle.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <section class="heading-container  ">
+        <div class="upper-container">
+          <div class="top-heading">
+            <div class="heading">
+              <p>HackCourses - Here You get All paid Courses in Freee</p>
+            </div>
+  
+            <div class="sec-heading">
+              <div class="logo"><a href="newindex.html"><img src="logo/WEB LOGO1.png" alt=""></a></div>
+  
+              <div class="input-btn">
+                <input 
+                  type="text " placeholder="Find Your course" class="btn" id="myinput"
+                  onkeyup="searchcourse()"
+                />
+                <div class="search-icon">
+                 <img src="list assets/magnifying-glass-solid.svg" alt="">
+                </div>
+               
+  
+                <div class="signup-btn">
+                  <span><a href="">Sign UP</a></span>
+                  <span><a href="">Log In</a></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="nav-bar">
+              
+              <ul class="list" id="list">
+
+                <li><a href=""> <img src="list assets/asset 2.png" alt=""> Courses</a></li>
+                <li><a href="policy.html"> <img src="list assets/asset 6.png" alt=""> Policy</a></li>
+                <li><a href=""> <img src="list assets/asset 4.png" alt=""> About</a></li>
+                <li><a href=""> <img src="list assets/asset 5.png" alt=""> Contact Us</a></li>
+                <li><a href="">  <img src="list assets/asset 7.png" alt=""> Donate Us</a></li>
+                <li><a href=""> <img src="list assets/asset 3.png" alt=""> Request Course</a></li>
+                      
+              </ul>
+              
+
+              
+              <div class="br-btn  ">
+                <img  src="list assets/bars-solid.svg"  class="bar-btn" onclick="tooglemenu()">
+              </div>
+              
+
+              <div class="bar-btn">
+                  <!-- <img src="list assets/bars-solid.svg" alt=""> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    </section>
+
+
+    <!-- FOR MOBILE VIEW -->
+
+    <div class="for-mobile">
+        <div class="sec-heading">
+          <div class="pink-box"></div>
+  
+          <div class="logo">
+            <a href="newindex.html"><img src="logo/WEB LOGO1.png" alt=""></a>
+          </div>
+  
+          <div class="input-btn ">
+  
+            <input type="text " placeholder="Find Your course" class="btn" id="myinput" onkeyup="searchcourse()"/>
+  
+            <div class="search-icon">
+             <img src="list assets/magnifying-glass-solid.svg" alt="">
+            </div>
+  
+          </div>
+        </div>
+  
+        <div class="nav-bar">
+                
+          <ul class="list" id="list">
+  
+            <li><a href=""> <img src="list assets/asset 2.png" alt=""> Courses</a></li>
+            <li><a href="policy.html"> <img src="list assets/asset 6.png" alt=""> Policy</a></li>
+            <li><a href=""> <img src="list assets/asset 4.png" alt=""> About</a></li>
+            <li><a href=""> <img src="list assets/asset 5.png" alt=""> Contact Us</a></li>
+            <li><a href="">  <img src="list assets/asset 7.png" alt=""> Donate Us</a></li>
+            <li><a href=""> <img src="list assets/asset 3.png" alt=""> Request Course</a></li>
+                  
+          </ul>
+  
+          <div class="signup-btn">
+            <span><a href="">Sign UP</a></span>
+            <span><a href="">Log In</a></span>
+          </div>
+          
+  
+          
+          <div class="br-btn  ">
+            <img  src="list assets/bars-solid.svg"  class="bar-btn" onclick="tooglemenu()">
+          </div>
+          
+  
+          <div class="bar-btn">
+              <img src="list assets/bars-solid.svg" alt="">
+          </div>
+  
+        </div>
+  
+  
+    </div>
+
+    <!-- course all information -->
+
+
+
+    <div class="main-contents"> 
+        <h1> Apna college full Java Placement Course</h1>
+
+
+        <div class="c-details">
+            <div class="img-div">
+                <img class="ik"  src="mix course img/621539e66c13ba7683522b7a.jpg" alt="">
+            </div>
+            <h3> <span>=>  &nbsp;</span> Apna college full Java Placement Course <span>  &nbsp; <= </span> </h3>
+        </div>
+
+       
+
+        <div class="buttons">
+         <a target="_blank" href="https://mega.nz/folder/Sj4HUabQ#wE84POBTO-mt5UeeXeKBUQ"> <button class="button">DOWNLOAD</button></a>
+        </div>
+    </div>
+
+
+
+
+    
+</body>
+</html>

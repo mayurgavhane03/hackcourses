@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,900&family=Viga&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HackCourses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pagestyle.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <section class="heading-container  ">
+        <div class="upper-container">
+          <div class="top-heading">
+            <div class="heading">
+              <p>HackCourses - Here You get All paid Courses in Freee</p>
+            </div>
+  
+            <div class="sec-heading">
+              <div class="logo"><a href="newindex.html"><img src="logo/WEB LOGO1.png" alt=""></a></div>
+  
+              <div class="input-btn">
+                <input 
+                  type="text " placeholder="Find Your course" class="btn" id="myinput"
+                  onkeyup="searchcourse()"
+                />
+                <div class="search-icon">
+                 <img src="list assets/magnifying-glass-solid.svg" alt="">
+                </div>
+               
+  
+                <div class="signup-btn">
+                  <span><a href="">Sign UP</a></span>
+                  <span><a href="">Log In</a></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="nav-bar">
+              
+              <ul class="list" id="list">
+
+                <li><a href=""> <img src="list assets/asset 2.png" alt=""> Courses</a></li>
+                <li><a href="policy.html"> <img src="list assets/asset 6.png" alt=""> Policy</a></li>
+                <li><a href="about.html"> <img src="list assets/asset 4.png" alt=""> About</a></li>
+                <li><a href=""> <img src="list assets/asset 5.png" alt=""> Contact Us</a></li>
+                <li><a href="">  <img src="list assets/asset 7.png" alt=""> Donate Us</a></li>
+                <li><a href=""> <img src="list assets/asset 3.png" alt=""> Request Course</a></li>
+                      
+              </ul>
+              
+
+              
+              <div class="br-btn  ">
+                <img  src="list assets/bars-solid.svg"  class="bar-btn" onclick="tooglemenu()">
+              </div>
+              
+
+              <div class="bar-btn">
+                  <!-- <img src="list assets/bars-solid.svg" alt=""> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+    </section>
+
+    <div class="for-mobile">
+      <div class="sec-heading">
+        <div class="pink-box"></div>
+
+        <div class="logo">
+          <a href="newindex.html"><img src="logo/WEB LOGO1.png" alt=""></a>
+        </div>
+
+        <div class="input-btn ">
+
+          <input type="text " placeholder="Find Your course" class="btn" id="myinput" onkeyup="searchcourse()"/>
+
+          <div class="search-icon">
+           <img src="list assets/magnifying-glass-solid.svg" alt="">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="nav-bar">
+              
+        <ul class="list" id="list">
+
+          <li><a href=""> <img src="list assets/asset 2.png" alt=""> Courses</a></li>
+          <li><a href="policy.html"> <img src="list assets/asset 6.png" alt=""> Policy</a></li>
+          <li><a href="about.html"> <img src="list assets/asset 4.png" alt=""> About</a></li>
+          <li><a href="contact_us.html"> <img src="list assets/asset 5.png" alt=""> Contact Us</a></li>
+          <li><a href="">  <img src="list assets/asset 7.png" alt=""> Donate Us</a></li>
+          <li><a href=""> <img src="list assets/asset 3.png" alt=""> Request Course</a></li>
+                
+        </ul>
+
+        <div class="signup-btn">
+          <span><a href="">Sign UP</a></span>
+          <span><a href="">Log In</a></span>
+        </div>
+        
+
+        
+        <div class="br-btn  ">
+          <img  src="list assets/bars-solid.svg"  class="bar-btn" onclick="tooglemenu()">
+        </div>
+        
+
+        <div class="bar-btn">
+            <img src="list assets/bars-solid.svg" alt="">
+        </div>
+
+      </div>
+
+
+    </div>
+
+    
+
+    <div class="middle-bar">
+        <div class="side-bar">
+            <div class="side-inner-bar">
+                <ul>
+                    <h3 class="top-head">Top Courses List</h3>
+                    <li class="li1"><a href="https://drive.google.com/drive/folders/1XjyqAKoloA-udkCmJd0OVZWg2E4jNGj7?usp=share_link">Anuj Bhiya Mern Stack</a></li>
+                    <hr />
+                    <li><a target="_blank" href="https://drive.google.com/drive/folders/1XjyqAKoloA-udkCmJd0OVZWg2E4jNGj7?usp=share_link">Crio.do courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Relevel courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="5codingninja.html">Coding Ninja</a></li>
+                    <hr />
+                    <li><a target="_blank"  href="">Coding Block</a></li>
+                    <hr />
+                    <li><a target="_blank" href="6geeksforgeeks.html">GeeksFoGeeks</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Pepcoding Courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Ineuron COurses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="3lovebabbarweb.html">Love Babbar </a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Unacademy CP courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Hacking Coursesa</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Apllied Courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Coding minutes</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Log2base2 Courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Applied ai all gate course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Algoexpert all courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Madeeasy course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Gateflix course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Scaler academy course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">TLE eliminators </a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Pepcoding</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Ace academy courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">prepinsta course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Sanket signh banked course</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">RBR all gate course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Madeeasy course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Durgasoft courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Verzeo all course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Upgrad all course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Physical Wala course</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Etoos all NEET course's</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Wscube all course</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Dr. Angela Yu Courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Namaste React Course</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">NPTL Courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">GRE Preparation Courses</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">Rachna Ranade Stock Market</a></li>
+                    <hr />
+                    <li><a target="_blank" href="">UPSC Courses</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="center-content">
+            
+            <div class="middle">
+                <div class="container">
+
+                    <h1 class="anim-head">We Provide <span class="auto-typing"></span></h1>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="center-text">
+          <div class="maintext">
+              <h3>OUR TOP COURSES</h3>
+              <div class="line1 "></div>
+              <div class="line2 "></div>
+          </div>
+
+          <div class="column-conntent">
+
+            <div class="row-content">
+              <div class="row1 ">
+                <div class="course-box shadow-md">
+                    <div class="course-content" id="course-content">
+                        <a href="1abdulbaridsa.html"><img src="abdul bari/2121018_9de5-300x169.jpg" alt="">
+                        <a href="1abdulbaridsa.html"><h2>Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                        
+                    </div>
+                </div>
+              </div>
+  
+              <div class="row2 ">  
+                <div class="course-box shadow-md">
+                    <div class="course-content" id="course-content">
+                        <a href="8ineuronnodejs.html"><img class="" src="mix course img/621539e66c13ba7683522b7a.jpg" alt="">
+                        <a href="8ineuronnodejs.html"><h2> Ineuron Complete Backend Development <br> with Nodejs</h2></a>
+                        
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="column-content">
+
+              <div class="row-content">
+                <div class="row1 ">
+                  <div class="course-box shadow-md">
+                      <div class="course-content">
+                          <a href="3lovebabbarweb.html"><img src="love babbar course img/love web.jpg" alt="">
+                          <a href="3lovebabbarweb.html"><h2>Love Babbar Web Development  <br> Bootcamp</h2></a>
+                          
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="row2 ">
+                  <div class="course-box shadow-md">
+                      <div class="course-content">
+                          <a href=""><img src="love babbar course img/love dsa.jpg" alt="">
+                          <a href=""><h2>Love Babbar Mastering data structure <br>& Algorithms using C++</h2></a>
+                          
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="row-content">
+                <div class="row1 ">
+                  <div class="course-box shadow-md">
+                      <div class="course-content">
+                          <a href=""><img src="mix course img/100 days python.jpg" alt="">
+                          <a href=""><h2>100 Days of Code: The Complete <br> Python Pro  Bootcamp for 2023</h2></a>
+                          
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="row2 ">
+                  <div class="course-box shadow-md">
+                      <div class="course-content">
+                          <a href=""><img src="mix course img/angela u web.jpg">
+                          <a href=""><h2>The Complete 2023 Web Development <br> Bootcamp</h2></a>
+                          
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row-content">
+                <div class="row1 ">
+                  <div class="course-box shadow-md">
+                      <div class="course-content">
+                          <a href="9sanketsingh.html"><img src="mix course img/sanket singh.png" alt="">
+                          <a href="9sanketsingh.html"><h2>Sanket Singh Full Backend <br> Development Course</h2></a>
+                          
+                      </div>
+                  </div>
+                </div>
+    
+                <div class="row2 ">
+                  <div class="course-box shadow-md">
+                      <div class="course-content">
+                          <a href=""><img src="mix course img/apna college.jpg" alt="">
+                          <a href=""><h2>Apna college full Java <br> Placement Course</h2></a>
+                          
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+
+
+          
+        </div> 
+
+
+
+
+
+        <div class="page-no">
+          <div class="buttons">
+
+          </div>
+        </div>
+
+
+        
+
+
+    </div>
+
+   
+
+
+    <div class="last-content">
+
+      <div class="first-box ">
+
+        <div class="abt-text">
+          <h3 class="head1">About Us </h3>
+          <h3 class="abt-t"> <span>FreeCourses</span> is the leading global <br> marketplace for teaching and learning, <br>
+            connecting millions of students to the skills <br> they need to succeed.</h3>
+        </div>
+
+        <div class="community">
+          <h3 class="">Join Our Community</h3>
+          <div class="image">
+            <a href=""><img src="discord logo/asset 13.gif" alt=""></a>
+          </div>
+
+        </div>
+
+        <div class="telegram">
+          <a href=""><h3>TELEGRAM</h3></a>
+          <a href=""><img src="telegramlogo/telegram.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="maintextm">
+          <h3>OUR TOP COURSES</h3>
+          <div class="line1 "></div>
+          <div class="line2 "></div>
+
+          <div class="line3 "></div>
+          <div class="line4 "></div>
+    </div>
+    
+    <div class="mobileview">
+      
+     
+
+    
+      <div class="row-content ">
+        
+        <div class="row1 ">
+          <div class="course-box shadow-md ">
+              <div class="course-content text-xs" id="course-content">
+                  <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px" alt="">
+                  <a href="" class="text-x"><h2 class="">Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                  
+              </div>
+          </div>
+        </div>
+
+          <div class="row2 ">
+            <div class="course-box shadow-md">
+                <div class="course-content" id="course-content">
+                    <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px"  alt="">
+                    <a href=""><h2>Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                    
+                </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+      <div class="row-content ">
+        
+        <div class="row1 ">
+          <div class="course-box shadow-md ">
+              <div class="course-content text-xs" id="course-content">
+                  <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px" alt="">
+                  <a href="" class="text-x"><h2 class="">Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                  
+              </div>
+          </div>
+        </div>
+
+        <div class="row2 ">
+          <div class="course-box shadow-md">
+              <div class="course-content" id="course-content">
+                  <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px"  alt="">
+                  <a href=""><h2>Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                  
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row-content ">
+        
+        <div class="row1 ">
+          <div class="course-box shadow-md ">
+              <div class="course-content text-xs" id="course-content">
+                  <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px" alt="">
+                  <a href="" class="text-x"><h2 class="">Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                  
+              </div>
+          </div>
+        </div>
+
+        <div class="row2 ">
+          <div class="course-box shadow-md">
+              <div class="course-content" id="course-content">
+                  <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px"  alt="">
+                  <a href=""><h2>Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                  
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row-content ">
+        
+        <div class="row1 ">
+          <div class="course-box shadow-md ">
+              <div class="course-content text-xs" id="course-content">
+                  <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px" alt="">
+                  <a href="" class="text-x"><h2 class="">Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                  
+              </div>
+          </div>
+        </div>
+
+        <div class="row2 ">
+          <div class="course-box shadow-md">
+              <div class="course-content" id="course-content">
+                  <a href=""><img src="abdul bari/2121018_9de5-300x169.jpg" width="250px"  alt="">
+                  <a href=""><h2>Mastering Data Structures <br>& Algorithms using C and C++</h2></a>
+                  
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    
+
+
+
+    
+    <div class="bottom-boxx">
+      <div class="box-x">
+        <!-- <h1>dfhkahkdfhkdsfhsdf</h1> -->
+      </div>
+    </div>
+  
+
+   
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="index.js"></script>
+</body>
+</html>

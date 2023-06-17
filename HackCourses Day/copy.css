@@ -1,0 +1,96 @@
+
+
+.top-heading .heading {
+    display: none;
+    width: 100%;
+}
+ 
+.side-inner-bar {
+ display: none;
+}
+
+/* logo side  */
+.sec-heading .logo img {
+ height: 130px;
+
+ position: relative;
+ left: 50%;
+}
+
+
+
+.br-btn {
+ color: white;
+ background-color: #4c0796;
+ border-radius: 100px;
+position: absolute;
+left: 20px;
+top: 40px;
+cursor: pointer;
+
+}
+/* bar btn bar btn */
+.br-btn img {
+ display: block;
+ color: white;
+ padding: 10px;
+}
+
+.bar-btn {
+ color: white;
+ display: block;
+}
+
+/* search icon */
+.search-icon img  {
+ height: 35px;
+ display: block;
+ position: relative;
+ left: 190px;
+}
+.center-content {
+ position: relative;
+ left: 80px;
+
+}
+
+.center-content  .middle .container h1 {
+
+ font-size: 30px;
+}
+
+.center-content  .middle .container span {
+ font-size: 30px; 
+}
+
+.input-btn .btn {
+display: none;
+ 
+}
+
+
+.for-mobile {
+ display: block;
+}
+
+
+
+
+
+.middle {
+ position: absolute;
+ left: 2px;
+}
+
+.list {
+ display: block;
+}
+
+
+.center-text {
+ display: none;
+}
+
+.last-content {
+ display: none;
+}
